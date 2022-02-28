@@ -4,7 +4,6 @@ const Discord = require('discord.js');
 const ytdl = require("ytdl-core");
 const chalk = require('chalk');
 const { createAudioPlayer, joinVoiceChannel, createAudioResource } = require('@discordjs/voice');
-const config = require('./config.json');
 
 const client = new Discord.Client({
     disableEveryone: true,
