@@ -43,6 +43,7 @@ client.on("ready", async () => {
             VoiceConnection.subscribe(player);
             console.log(chalk.green(`\n[MUSIC] ${chalk.red(`Now Playing - https://www.youtube.com/watch?v=${process.env.YTVIDEOID}`)}`))
             console.log(chalk.green(`[EVENT] ${chalk.red(`Sending Ready Event To Pterodactyl`)}`));
+            console.log('done')
             player.play(resource);
             player.on("idle", () => {
                 try {

@@ -4,7 +4,7 @@
         "version": "PTDL_v1",
         "update_url": null
     },
-    "exported_at": "2021-12-13T10:34:52+11:00",
+    "exported_at": "2022-02-28T23:23:52+11:00",
     "name": "LofiBot",
     "author": "me@luxxy.xyz",
     "description": "The lofi radio discord bot",
@@ -13,10 +13,10 @@
         "ghcr.io\/parkervcp\/yolks:nodejs_16"
     ],
     "file_denylist": [],
-    "startup": "yarn && yarn start",
+    "startup": "yarn start",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \" [EVENT] Sending Ready Event To Pterodactyl \"\r\n}",
+        "startup": "{\r\n    \"done\": \"done\"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },
