@@ -50,7 +50,7 @@
             "name": "YoutubeVideoID",
             "description": "The id of the youtube video you want to play.",
             "env_variable": "YTVIDEOID",
-            "default_value": "",
+            "default_value": "5qap5aO4i9A",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string"
@@ -59,7 +59,7 @@
             "name": "Custom Status",
             "description": "The status you want to set - Playing (status).",
             "env_variable": "CUSTOMSTATUS",
-            "default_value": "",
+            "default_value": "Chilling Out.",
             "user_viewable": true,
             "user_editable": true,
             "rules": "required|string"
