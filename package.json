@@ -18,6 +18,7 @@
     "dotenv": "^16.0.0",
     "ffmpeg": "^0.0.4",
     "libsodium-wrappers": "^0.7.9",
+    "node-opus": "^0.3.3",
     "ytdl-core": "^4.10.1"
   }
 }
