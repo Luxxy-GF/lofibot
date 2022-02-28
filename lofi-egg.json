@@ -13,10 +13,10 @@
         "ghcr.io\/parkervcp\/yolks:nodejs_16"
     ],
     "file_denylist": [],
-    "startup": "yarn && yarn start",
+    "startup": "npm i && node index.js",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \"Ready! Logged in as \"\r\n}",
+        "startup": "{\r\n    \"done\": \" [EVENT] Sending Ready Event To Pterodactyl \"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },

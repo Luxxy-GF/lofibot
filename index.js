@@ -25,7 +25,7 @@ client.on("ready", async () => {
     
     joinChannel(process.env.CHANNELID);
     await new Promise(res => setTimeout(() => res(2), 500))
-
+    
     //JoinChannel Function
     function joinChannel(channelId) {
         client.channels.fetch(channelId).then(channel => {
@@ -42,6 +42,7 @@ client.on("ready", async () => {
             const player = createAudioPlayer()
             VoiceConnection.subscribe(player);
             console.log(chalk.green(`\n[MUSIC] ${chalk.red(`Now Playing - https://www.youtube.com/watch?v=${process.env.YTVIDEOID}`)}`))
+            console.log(chalk.green(`[EVENT] ${chalk.red(`Sending Ready Event To Pterodactyl`)}`));
             player.play(resource);
             player.on("idle", () => {
                 try {
